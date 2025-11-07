@@ -1,0 +1,18 @@
+package ch05;
+
+public class CharAt {
+    public static void main(String[] args) {
+        String ssn ="9506241230123";
+        char sex = ssn.charAt(6); //인덱스 6번째 char가 무엇인지
+        switch (sex){
+            case '1':
+            case '3':
+                System.out.println("남자입니다.");
+                break;
+            case '2':
+            case '4':
+                System.out.println("여자입니다.");
+                break;
+        }
+    }
+}
